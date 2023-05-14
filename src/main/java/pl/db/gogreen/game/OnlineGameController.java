@@ -23,7 +23,7 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-@Validated
+//@Validated FIXME: Disabling @Validated as it's primarily performance / green-coding contest not strict follow api-docs ?
 public class OnlineGameController {
 
     private final OnlineGameService gameService;

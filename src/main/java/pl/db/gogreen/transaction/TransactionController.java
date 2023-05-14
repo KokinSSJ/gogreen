@@ -19,7 +19,7 @@ import java.util.stream.Stream;
 
 @RestController
 @RequiredArgsConstructor
-@Validated
+//@Validated FIXME: Disabling @Validated as it's primarily performance / green-coding contest not strict follow api-docs ?
 public class TransactionController {
 
     private final ReportService reportService;

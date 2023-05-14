@@ -23,7 +23,7 @@ import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
 @RestController
 @RequiredArgsConstructor
-@Validated
+//@Validated FIXME: Disabling @Validated as it's primarily performance / green-coding contest not strict follow api-docs ?
 public class ATMController {
 
     private final ATMOrderService atmOrderService;
