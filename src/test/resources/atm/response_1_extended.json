@@ -1,0 +1,30 @@
+[
+  {
+    "region": 10,
+    "atmId": 11
+  },
+  {
+    "region": 22,
+    "atmId": 15
+  },
+  {
+    "region": 33,
+    "atmId": 222
+  },
+  {
+    "region": 33,
+    "atmId": 100
+  },
+  {
+    "region": 47,
+    "atmId": 1
+  },
+  {
+    "region": 51,
+    "atmId": 100
+  },
+  {
+    "region": 51,
+    "atmId": 2510
+  }
+]
